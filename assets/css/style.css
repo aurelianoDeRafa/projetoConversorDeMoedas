@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg/bg.jpg');
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    height: 90vh;
+    background-color: rgba(190, 190, 190, 0.521);
+    box-shadow: 10px 10px 50px  30px #000;
+    border-radius: 10px;
+}
+.titulo{
+    width: 100%;
+    height: 100px;
+}
+.titulo h1{
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px #000;
+}
+
+.area-valores{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-valores--input{
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.area-valores--input input{
+    width: 600px;
+    height: 50px;
+    border: none;
+    outline-color: darkgray;
+    text-align: center;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.area-valores--input input::placeholder{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.area-moedas{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-moedas--bandeiras{
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bandeiras{
+    width: 100px;
+    height: 90px;
+    cursor: pointer;
+    margin: 0px 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bandeiras-img{
+    width: 100px;
+    height: 60px;
+}
+.bandeiras-img img{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+}
+.bandeiras-moeda{
+    width: 100px;
+    height: 40px;
+}
+.bandeiras-moeda h3{
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+    text-shadow: 2px 2px 5px #000;
+}
+
+
+.area-convertido{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.convertido{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px 10px 0px 0px ;
+    font-size: 25px;
+}
+.valorDaMoeda{
+    width: 400px;
+    height: 30px;
+    border-radius: 0px 0px 10px 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
