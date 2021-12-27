@@ -17,7 +17,7 @@ var clickMoedas = document.querySelector('.area-moedas--bandeiras');
             const resultadoDaConver = document.querySelector('.convertido');
             const valorMoeda = document.querySelector('.valorDaMoeda');
 
-            const moeda = 5.62
+            const moeda = 5.63
 
             if(valorDigitado > 0){
             const valor = valorDigitado * moeda;
@@ -32,7 +32,7 @@ var clickMoedas = document.querySelector('.area-moedas--bandeiras');
             const resultadoDaConver = document.querySelector('.convertido');
             const valorMoeda = document.querySelector('.valorDaMoeda');
 
-            const moeda = 7.76;
+            const moeda = 7.56;
 
             if(valorDigitado > 0){
             var valor = valorDigitado * moeda;
@@ -47,7 +47,7 @@ var clickMoedas = document.querySelector('.area-moedas--bandeiras');
             const resultadoDaConver = document.querySelector('.convertido');
             const valorMoeda = document.querySelector('.valorDaMoeda');
 
-            const moeda = 6.64;
+            const moeda = 6.37;
 
             if(valorDigitado > 0){
             var valor = valorDigitado * moeda;
@@ -62,7 +62,7 @@ var clickMoedas = document.querySelector('.area-moedas--bandeiras');
             const resultadoDaConver = document.querySelector('.convertido');
             const valorMoeda = document.querySelector('.valorDaMoeda');
 
-            const moeda = 0.86;
+            const moeda = 0.88;
 
             if(valorDigitado > 0){
             var valor = valorDigitado * moeda;
