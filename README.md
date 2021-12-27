@@ -9,7 +9,7 @@
 **Conversor de moedas:** Ele pode converter dólar, libra, euro e Renminbi em real. Ele também mostra o valor da moeda a baixo
 
 ---
-GitHub Pages: 
+GitHub Pages: https://aurelianoderafa.github.io/projetoConversorDeMoedas/
  
 ---
 ### 💻 Tecnologia utilizada
